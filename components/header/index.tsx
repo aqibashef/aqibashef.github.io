@@ -1,11 +1,13 @@
-import { Social } from "../social";
+import styles from './styles.module.css';
 
 export const Header = () => {
     return (
-        <div className="container h-screen flex justify-center items-center">
+        <div className={styles.header + " container h-screen flex justify-center items-center"}>
             <div className="flex flex-col items-center lg:items-start">
-                <h1 className="text-3xl sm:text-4xl md:text-6xl xl:text-8xl text-center lg:text-left font-semibold leading-tight mb-6">Hi, I'm Aqib. I like to <br/>build stuff.</h1>
-                <Social/>
+                <h2 className="text-5xl sm:text-6xl xl:text-7xl font-semibold mb-2 pl-10 sm:pl-20">Hi there,</h2>
+                <h2 className="text-5xl sm:text-6xl xl:text-7xl font-semibold mb-2">I'm Aqib.</h2>
+                <h2 className="text-5xl sm:text-6xl xl:text-7xl font-semibold mb-2 pl-10 sm:pl-20">I like to</h2>
+                <h2 className="text-5xl sm:text-6xl xl:text-7xl font-semibold pl-5 sm:pl-8 md:pl-0"><span className={styles.specialText}>Build</span> stuff.</h2>
             </div>
         </div>
     );

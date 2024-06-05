@@ -1,0 +1,70 @@
+.header {
+    background-image: url('/bg-1.svg');
+    background-repeat: no-repeat;
+    background-position: 85% 58%;
+    background-size: 75vw 75vw;
+}
+
+.specialText {
+    background: -webkit-linear-gradient(0deg,#8D3084, #675AFE, #66FFC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+.specialText::before {
+    content: '';
+    background-image: url('/bg-2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 80%;
+    bottom: -8%;
+    height: 145%;
+    width: 45%;
+}
+
+@media screen and (min-width: 640px) {
+    .header {
+        background-image: url('/bg-1.svg');
+        background-repeat: no-repeat;
+        background-position: 83% 60%;
+        background-size: 50vw 50vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        background-image: url('/bg-1.svg');
+        background-repeat: no-repeat;
+        background-position: 80% 60%;
+        background-size: 45vw 45vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        background-image: url('/bg-1.svg');
+        background-repeat: no-repeat;
+        background-position: 73% 60%;
+        background-size: 35vw 35vw;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        background-image: url('/bg-1.svg');
+        background-repeat: no-repeat;
+        background-position: 68% 63%;
+        background-size: 30vw 30vw;
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .header {
+        background-image: url('/bg-1.svg');
+        background-repeat: no-repeat;
+        background-position: 64% 63%;
+        background-size: 25vw 25vw;
+    }
+}

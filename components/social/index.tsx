@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import styles from './styles.module.css';
+
 export const Social = () => {
     return (
-        <div className="flex gap-x-6">
+        <div className={styles.socialNav + " flex gap-x-6"}>
             <Link href={"https://twitter.com/aqibashef"} target="_blank">
                 <Image src={"/twitter-white.svg"} alt="T" height={20} width={20}/>
             </Link>
