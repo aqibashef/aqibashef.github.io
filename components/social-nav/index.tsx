@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import styles from './styles.module.css';
 
-export const Social = () => {
+export const SocialNav = () => {
     return (
         <div className={styles.socialNav + " flex gap-x-6"}>
             <Link href={"https://twitter.com/aqibashef"} target="_blank">
