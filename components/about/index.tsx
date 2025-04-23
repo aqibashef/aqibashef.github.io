@@ -1,3 +1,4 @@
+'use client'
 import { BookACallCard } from "../book-a-call-card";
 import { CompanyCard } from "../company-card";
 import { ExperienceCard } from "../experience-card";

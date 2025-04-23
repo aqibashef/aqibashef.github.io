@@ -1,3 +1,4 @@
+'use client'
 import { About } from "@/components/about";
 import { Header } from "@/components/header";
 import { SocialNav } from "@/components/social-nav";

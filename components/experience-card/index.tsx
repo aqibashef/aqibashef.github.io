@@ -1,3 +1,4 @@
+'use client'
 export const ExperienceCard = () => {
     return (
         <div className="bg-[#181818] rounded-2xl py-16 md:py-10 lg:py-10 xl:py-16 px-14 mb-5">

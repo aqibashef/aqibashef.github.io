@@ -1,3 +1,4 @@
+'use client'
 import { SocialCardItem } from "../social-card-item";
 
 export const SocialCard = () => {
