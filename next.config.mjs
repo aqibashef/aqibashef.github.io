@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    distDir: "build",
+    distDir: "docs",
     output: "export",
-    assetPrefix: "/aqibashef.github.io/",
+    assetPrefix: "https://aqibashef.github.io/",
     // basePath: "//aqibashef.github.io",
 };
 
