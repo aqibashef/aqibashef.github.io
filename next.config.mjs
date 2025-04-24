@@ -2,7 +2,8 @@
 const nextConfig = {
     distDir: "docs",
     output: "export",
-    assetPrefix: "https://aqibashef.github.io/",
+    // assetPrefix: "https://aqibashef.github.io/",
+    trailingSlash: true,
     // basePath: "//aqibashef.github.io",
 };
 
