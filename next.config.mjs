@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    distDir: "docs",
+    // distDir: "docs",
     output: "export",
     // assetPrefix: "https://aqibashef.github.io/",
     trailingSlash: true,
