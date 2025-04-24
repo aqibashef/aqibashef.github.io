@@ -90,7 +90,8 @@ jobs:
     steps:
       - name: Add Custom Domain
         run: |
-          echo "aqib.me" > ./out/CNAME
+          touch ./out/CNAME
+          && echo "aqib.me" > ./out/CNAME
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
