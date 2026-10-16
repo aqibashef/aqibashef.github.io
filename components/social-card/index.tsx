@@ -3,7 +3,7 @@ import { SocialCardItem } from "../social-card-item";
 
 export const SocialCard = () => {
     return (
-        <div className="columns-3">
+        <div className="grid grid-cols-3 gap-5 mb-5">
             <SocialCardItem 
                 url="https://x.com/aqibashef" 
                 logo="/x-logo.svg"/>
